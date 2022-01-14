@@ -1,2 +1,0 @@
-# CucumberProject
-CucumberProjectEclipse
