@@ -16,7 +16,7 @@ Feature: Login Functionality
     Then Home Page is displayed
     And Close the browser 
 
-@Smoke
+@Sanity
   Scenario Outline: Verify valid Credentials
     Given User Launch DemoWebshop application
     When User enters Valid "<username>" and "<password>"
