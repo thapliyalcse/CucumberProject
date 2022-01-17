@@ -16,9 +16,10 @@ import io.cucumber.junit.CucumberOptions;
 				plugin= {"json:CucumberReports/cucumber.json",
 						"html:CucumberReports/index.html",
 						"junit:target/junit/junit-report"},
+		tags = "@SmokeTest",
 		dryRun=false,
-		monochrome=true,
-				tags = "@Smoke"
+		monochrome=true
+		
 		
 )
 

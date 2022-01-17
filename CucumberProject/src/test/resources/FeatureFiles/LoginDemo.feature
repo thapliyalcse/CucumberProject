@@ -1,6 +1,6 @@
 Feature: Login Functionality
 
-@Smoke
+@SmokeTest
   Scenario: User enters Valid Credentials
     Given User Launch DemoWebshop application
     When User enters username and password
@@ -8,7 +8,7 @@ Feature: Login Functionality
     Then Home Page is displayed
     And Close the browser
 
-@Sanity
+@SanityTest
   Scenario: User enters Invalid Credentials
     Given User Launch DemoWebshop application
     When User enters Invalid username and password
@@ -16,7 +16,7 @@ Feature: Login Functionality
     Then Home Page is displayed
     And Close the browser 
 
-@Sanity
+@SanityTest
   Scenario Outline: Verify valid Credentials
     Given User Launch DemoWebshop application
     When User enters Valid "<username>" and "<password>"
